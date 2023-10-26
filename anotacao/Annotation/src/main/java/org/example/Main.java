@@ -10,7 +10,7 @@ public class Main {
         CarroObserver observer = new CarroObserver();
         carro.addObserver(observer);
 
-        carro.associarObserver(observer);
+        Observable.associarObserver(observer);
 
         // Algum evento no objeto observado
         carro.notifyObservers();

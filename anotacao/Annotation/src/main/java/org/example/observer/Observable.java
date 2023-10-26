@@ -8,23 +8,25 @@ import java.util.List;
 
 @Getter
 public class Observable {
-    private final String identificador;
-    private final List<ObserverInterface> observerInterfaces = new ArrayList<>();
+    private static String identificador;
+    private static final List<ObserverInterface> observerInterfaces = new ArrayList<>();
 
     public Observable(String identificador) {
-        this.identificador = identificador;
+        Observable.identificador = identificador;
     }
 
-    public void associarObserver(Object observer) {
+    public static <T> void associarObserver(T observer) {
         Class<?> observerClass = observer.getClass();
 
-        if (observerClass.isAnnotationPresent(Observer.class)) {
-            Observer annotation = observerClass.getAnnotation(Observer.class);
+        observerInterfaces.forEach(observerInterface -> {
+            if (observerClass.isAnnotationPresent(Observer.class)) {
+                Observer annotation = observerClass.getAnnotation(Observer.class);
 
-            if (annotation.value().equals(identificador)) {
-                System.out.println("Associando Observer a " + identificador);
+                if (annotation.value().equals(identificador)) {
+                    System.out.println("Associando Observer a " + identificador);
+                }
             }
-        }
+        });
     }
 
     public void addObserver(ObserverInterface observerInterface) {
@@ -36,10 +38,6 @@ public class Observable {
     }
 
     public void notifyObservers() {
-        for (ObserverInterface observerInterface : observerInterfaces) {
-            if (observerInterface.getValue().equals(identificador)) {
-                observerInterface.update();
-            }
-        }
+        observerInterfaces.forEach(ObserverInterface::update);
     }
 }
