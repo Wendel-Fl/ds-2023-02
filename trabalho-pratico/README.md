@@ -12,15 +12,11 @@ Instituições de ensino
 
 ## Funcionalidades:
 
-* Permite o cadastro de usuários vinculados ou não a uma instituição de ensino. As instituições devem cadastrar-se na plataforma e gerar uma chave para que os alunos possam associar-se.
-
 * Banco de questões gerados automaticamente e aleatoriamente através de um algoritmo baseado em 4 níveis de dificuldade.
 
 * As expressões se resumem a operações envolvendo adição, subtração, divisão, multiplicação, potenciação e radiciação.
 
-* Ao resolver um exercício, o aluno recebe uma conquista (no caso da aplicação temática de pokémon, seria adicionado o Pokémon na coleção do usuário).
-
-* Sistema de ranking por instituição de ensino.
+* Ao resolver um exercício, o aluno recebe uma conquista.
 
 * Sessões em que o usuário pode aprender a parte teórica do conteúdo de maneira rápida e sucinta, com exemplos de resoluções.
 
