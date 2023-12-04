@@ -6,15 +6,23 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
 
 ## Público alvo:
 
-* Crianças e jovens em idade escolar
-* Pais e responsáveis
-Instituições de ensino
+* Crianças em nível escolar em período entre 1ª a 5ª série.
+
+## Escopo:
+
+* Nossa e pior que o escopo tem que ser bem definido
 
 ## Funcionalidades:
 
-* Banco de questões gerados automaticamente e aleatoriamente através de um algoritmo baseado em 4 níveis de dificuldade.
-
-* As expressões se resumem a operações envolvendo adição, subtração, divisão, multiplicação, potenciação e radiciação.
+* Banco de questões gerados automaticamente e aleatoriamente através de um algoritmo baseado em 4 níveis de dificuldade. Em cada nível o aluno resolverá questões de:
+    
+    * Iniciante: Adição e subtração
+    
+    * Moderado: Multiplicação e divisão
+    
+    * Experiente: Potenciação
+    
+    * Mestre: Radiciação
 
 * Ao resolver um exercício, o aluno recebe uma conquista.
 
