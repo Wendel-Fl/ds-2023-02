@@ -10,7 +10,7 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
 
 ## Produto:
 
-* Plataforma digital voltada para a educação de crianças que utiliza de mecanismos da gamificação a fim de criar um ambiente divertido, conectado com a realidade do usuário e que busca motivá-los por meio de dinâmicas semelhantes à jogos. Dessa forma, a aplicação será voltada para o estudo introdutório de álgebra, que consiste na resolução de expressões numéricas envolvendo operações fundamentais.
+* Plataforma digital voltada para a educação de crianças que utiliza de mecanismos da _gamificação_ a fim de criar um ambiente divertido, conectado com a realidade do usuário e que busca motivá-los por meio de dinâmicas semelhantes à jogos. Dessa forma, a aplicação será voltada para o estudo introdutório de álgebra, que consiste na resolução de expressões numéricas envolvendo operações fundamentais.
 
 ## Motivação e Objetivos
 
@@ -45,10 +45,10 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
         * $\sqrt[2]{4}$ * 25 - 40 / 4 + 15 * 9<sup>2</sup> + 88<sup>0</sup>
         * 65 / 5 + 7<sup>3</sup> - 42 + $\sqrt[3]{9}$ * 12 + 102
           
-* Ao gerar uma questão, o algoritmo será capaz de fornecer 4 alternativas de resposta e reconhecer a resposta correta quando o usuário selecionar uma alternativa
+* Ao gerar uma questão, o algoritmo será capaz de fornecer 4 alternativas de resposta e reconhecer a resposta correta quando o usuário selecionar uma alternativa.
   
 * Ao resolver um exercício corretamente, o aluno recebe uma conquista baseada no tema da _gamificação_ do sistema e será incrementado seu progresso no nível de dificuldade selecionado.
   
-* As questões não serão registradas no banco de dados, apenas as informações do usuário (Nome, email, senha, conquistas obtidas e progresso atual em cada nível de dificuldade)
+* As questões não serão registradas no banco de dados, serão registradas apenas as informações do usuário (Nome, email, senha, conquistas obtidas e progresso atual em cada nível de dificuldade).
   
-* Sessões em que o usuário pode aprender a parte teórica do conteúdo de maneira rápida e sucinta, com exemplos de resoluções.
+* Sessões em que o usuário pode aprender a parte teórica do conteúdo, ou seja, como resolver as operações (como funciona cada opração e qual ordem correta de resolvê-las dentro de uma expressão) e exemplos comentados de resoluções.
