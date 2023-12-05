@@ -15,15 +15,15 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
 ## Motivação e Objetivos
 
 * Necessidade de inovação educacional diante da transformação tecnológica da sociedade
+* Incentivar estudantes através de estímulos visuais e um contexto similar a jogos digitais, diferentemente dos métodos de ensino tradicionais, facilitando o aprendizado
 * Reconhecer a diversidade de estilos de aprendizado
-* Facilitar o aprendizado infantil
 * Promover engajamento, motivação e uma formação holística, visando o desenvolvimento cognitivo da criança
 * Permitir que os usuários aprendam de forma independente e flexível
 * Estimular a curiosidade e a busca pelo conhecimento através da abordagem interativa
 
 ## Funcionalidades:
 
-* Banco de questões gerados automaticamente e aleatoriamente através de um algoritmo baseado em 4 níveis de dificuldade. Em cada nível o aluno resolverá questões de:
+* As questões serão geradas automaticamente e aleatoriamente através de um algoritmo baseado em 4 níveis de dificuldade. Em cada nível o aluno resolverá questões de:
     
     * Iniciante: Adição e subtração </p>
       Exemplos:
@@ -44,13 +44,11 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
       Exemplos: 
         * $\sqrt[2]{4}$ * 25 - 40 / 4 + 15 * 9<sup>2</sup> + 88<sup>0</sup>
         * 65 / 5 + 7<sup>3</sup> - 42 + $\sqrt[3]{9}$ * 12 + 102
-
-* Ao resolver um exercício, o aluno recebe uma conquista.
-
+          
+* Ao gerar uma questão, o algoritmo será capaz de fornecer 4 alternativas de resposta e reconhecer a resposta correta quando o usuário selecionar uma alternativa
+  
+* Ao resolver um exercício corretamente, o aluno recebe uma conquista baseada no tema da _gamificação_ do sistema e será incrementado seu progresso no nível de dificuldade selecionado.
+  
+* As questões não serão registradas no banco de dados, apenas as informações do usuário (Nome, email, senha, conquistas obtidas e progresso atual em cada nível de dificuldade)
+  
 * Sessões em que o usuário pode aprender a parte teórica do conteúdo de maneira rápida e sucinta, com exemplos de resoluções.
-
-## Importância:
-
-* Incentivar estudantes através de estímulos visuais e um contexto similar a jogos digitais, diferentemente dos métodos de ensino tradicionais
-
-* Promover a autonomia e o raciocínio do estudante
