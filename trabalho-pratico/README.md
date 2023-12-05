@@ -6,23 +6,44 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
 
 ## Público alvo:
 
-* Crianças em nível escolar em período entre 1ª a 5ª série.
+* Crianças em nível escolar em período entre 1ª a 6ª série.
 
-## Escopo:
+## Produto:
 
-* Nossa e pior que o escopo tem que ser bem definido
+* Plataforma digital voltada para a educação de crianças que utiliza de mecanismos da gamificação a fim de criar um ambiente divertido, conectado com a realidade do usuário e que busca motivá-los por meio de dinâmicas semelhantes à jogos. Dessa forma, a aplicação será voltada para o estudo introdutório de álgebra, que consiste na resolução de expressões numéricas envolvendo operações fundamentais.
+
+## Motivação e Objetivos
+
+* Necessidade de inovação educacional diante da transformação tecnológica da sociedade
+* Reconhecer a diversidade de estilos de aprendizado
+* Facilitar o aprendizado infantil
+* Promover engajamento, motivação e uma formação holística, visando o desenvolvimento cognitivo da criança
+* Permitir que os usuários aprendam de forma independente e flexível
+* Estimular a curiosidade e a busca pelo conhecimento através da abordagem interativa
 
 ## Funcionalidades:
 
 * Banco de questões gerados automaticamente e aleatoriamente através de um algoritmo baseado em 4 níveis de dificuldade. Em cada nível o aluno resolverá questões de:
     
-    * Iniciante: Adição e subtração
+    * Iniciante: Adição e subtração </p>
+      Exemplos:
+        * 5 + 8 - 4
+        * 7 - 2 + 3
     
-    * Moderado: Multiplicação e divisão
+    * Moderado: Multiplicação e divisão </p>
+      Exemplos: 
+        * 8 * 2 + 4 - 8 / 2
+        * 10 / 2 - 4 * 3
     
-    * Experiente: Potenciação
+    * Experiente: Potenciação </p>
+      Exemplos: 
+        * 3<sup>2</sup> + 12 / 6 - 3 + 12 - 2
+        * 20 / 4 * 4<sup>3</sup> + 24 / 8 * 3
     
-    * Mestre: Radiciação
+    * Mestre: Radiciação </p>
+      Exemplos: 
+        * $\sqrt[2]{4}$ * 25 - 40 / 4 + 15 * 9<sup>2</sup> + 88<sup>0</sup>
+        * 65 / 5 + 7<sup>3</sup> - 42 + $\sqrt[3]{9}$ * 12 + 102
 
 * Ao resolver um exercício, o aluno recebe uma conquista.
 
