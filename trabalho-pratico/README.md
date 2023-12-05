@@ -56,5 +56,6 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
 ## Serviços e sistemas habilitadores
 
 * Serviço de _gamificação_: fornece funcionalidades como a criação de conquistas/recompensas e feedbacks positivos para motivar os usuários
+(Proposta inicial: utilizar a API disponível em "https://pokeapi.co/" que fornece diversas informações e imagens acerca de _Pokémon_, uma franquia de mídia criada em 1995 centrada em criaturas ficcionais chamadas _Pokémon_ e amplamente conhecida na cultura pop por meio de desenhos animados e jogos digitais)
 * Serviço de autenticação: proteger as informações do usuário (nome, email e senha)
 * Sistema de geração e validação de questões: capaz de gerar questõs automaticamente a partir de um algoritmo, incluindo a geração de alternativas e validação das respostas dos usuários
