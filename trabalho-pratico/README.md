@@ -52,3 +52,9 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
 * As questões não serão registradas no banco de dados, serão registradas apenas as informações do usuário (Nome, email, senha, conquistas obtidas e progresso atual em cada nível de dificuldade).
   
 * Sessões em que o usuário pode aprender a parte teórica do conteúdo, ou seja, como resolver as operações (como funciona cada opração e qual ordem correta de resolvê-las dentro de uma expressão) e exemplos comentados de resoluções.
+
+## Serviços e sistemas habilitadores
+
+* Serviço de _gamificação_: fornece funcionalidades como a criação de conquistas/recompensas e feedbacks positivos para motivar os usuários
+* Serviço de autenticação: proteger as informações do usuário (nome, email e senha)
+* Sistema de geração e validação de questões: capaz de gerar questõs automaticamente a partir de um algoritmo, incluindo a geração de alternativas e validação das respostas dos usuários
