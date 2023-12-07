@@ -51,7 +51,7 @@ Sistema web educativo voltando para o ensino de matemática infantojuvenil.
   
 * As questões não serão registradas no banco de dados, serão registradas apenas as informações do usuário (Nome, email, senha, conquistas obtidas e progresso atual em cada nível de dificuldade).
   
-* Seções em que o usuário pode aprender a parte teórica do conteúdo, ou seja, como resolver as operações (como funciona cada opração e qual ordem correta de resolvê-las dentro de uma expressão) e exemplos comentados de resoluções.
+* O usuário poderá alternar entre realizar exercícios e aprender a parte teórica do conteúdo, ou seja, como resolver as operações (como funciona cada opração e qual ordem correta de resolvê-las dentro de uma expressão) e exemplos comentados de resoluções.
 
 ## Serviços e sistemas habilitadores
 
